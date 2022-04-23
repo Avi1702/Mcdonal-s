@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+    font-size: 20px;
+    background-color:rgba(153, 239, 68, 0.973);
+}
+
+
+
+img{
+    width: 200px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+#items{
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,200px);
+    gap: 30px;
+   
+    /* row-gap: 20px; */
+
+}
+
+#orderfood{
+    /* margin: auto; */
+    padding: 10px;
+    width: 25%;
+    background-color: goldenrod;
+    
+  
+
+}
+#btn{
+    margin-top: 10px;
+}
+#main{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    /* width: 100%;
+  display: grid;
+  grid-template-columns: (3,1fr);
+  grid-template-rows: (3,150px);
+  gap: 20px; */
+}
+h3{
+    color:ghostwhite;
+}
+h1{
+    color: red;
+}
+/* body{
+    text-align: center;
+} */
